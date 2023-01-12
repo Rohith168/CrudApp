@@ -15,7 +15,7 @@ app.use(cors({
 app.use(require('./router/auth'));
 
 
-app.get('/',(req,res)=>{
+app.get('/',(req,res) =>{
 res.send("hello from server")
 })
 app.listen(8080,()=>
